@@ -1,0 +1,40 @@
+{
+  "name": "@nineteen84/eslint-config-rules",
+  "version": "1.0.0",
+  "description": "al0ridal's typescript eslint rules",
+  "engines": {
+    "node": ">=18.0.0",
+    "pnpm": ">=8.0.0"
+  },
+  "packageManager": "pnpm@8.6.2",
+  "type": "module",
+  "main": "./core.cjs",
+  "exports": {
+		".": {
+    	"import": "./core.cjs",
+    	"require": "./core.cjs"
+		},
+		"./style.cjs": "./style.cjs"
+  },
+  "files": [
+    "./core.cjs",
+    "./style.cjs"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/al0rid4l/eslint-config.git"
+  },
+  "keywords": [
+    "eslint",
+    "rules"
+  ],
+  "author": "al0rid4l",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/al0rid4l/eslint-config/issues"
+  },
+  "homepage": "https://github.com/al0rid4l/eslint-config#readme"
+}

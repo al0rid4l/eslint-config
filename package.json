@@ -1,0 +1,38 @@
+{
+  "name": "@nineteen84/eslint-config-repo",
+  "version": "1.0.0",
+  "engines": {
+    "node": ">=18.0.0",
+    "pnpm": ">=8.0.0"
+  },
+  "packageManager": "pnpm@8.6.2",
+  "private": true,
+  "type": "module",
+  "description": "al0ridal's eslint config",
+  "scripts": {
+		"lint": "eslint ./**/*.{cjs,mjs,js} --cache",
+		"format": "eslint ./**/*.{cjs,mjs,js} --cache --fix",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/al0rid4l/eslint-config.git"
+  },
+  "keywords": [
+    "eslint",
+    "config"
+  ],
+  "author": "al0rid4l",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/al0rid4l/eslint-config/issues"
+  },
+  "homepage": "https://github.com/al0rid4l/eslint-config#readme",
+  "workspaces": [
+    "./packages/*"
+  ],
+  "devDependencies": {
+    "eslint": "^8.46.0",
+		"@nineteen84/eslint-config-base": "workspace:*"
+  }
+}
