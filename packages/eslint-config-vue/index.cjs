@@ -5,11 +5,11 @@ module.exports = {
 		'plugin:vue/vue3-recommended',
 		'@nineteen84/browser'
 	],
-	overrides: [ {
-		files: [ '*.vue' ],
+	overrides: [{
+		files: ['*.vue'],
 		parser: 'vue-eslint-parser',
 		parserOptions: {
 			parser: '@typescript-eslint/parser'
 		}
-	} ]
+	}]
 };

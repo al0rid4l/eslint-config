@@ -6,5 +6,10 @@ module.exports = {
 		'plugin:react/jsx-runtime',
 		'plugin:react-hooks/recommended',
 		'@nineteen84/browser'
-	]
+	],
+	settings: {
+		react: {
+			version: 'detect'
+		}
+	}
 };

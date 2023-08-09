@@ -8,5 +8,5 @@ module.exports = {
 		...globals.nodeBuiltin,
 		...globals.commonjs
 	},
-	extends: [ '@nineteen84/ts' ]
+	extends: ['@nineteen84/ts']
 };

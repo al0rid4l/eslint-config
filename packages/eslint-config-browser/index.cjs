@@ -8,11 +8,11 @@ module.exports = {
 		...globals.worker,
 		...globals.serviceworker
 	},
-	extends: [ '@nineteen84/ts' ],
+	extends: ['@nineteen84/ts'],
 	parserOptions: {
 		jsx: true
 	},
 	rules: {
-		'jsx-quotes': [ 'error', 'prefer-single' ]
+		'jsx-quotes': ['error', 'prefer-single']
 	}
 };
