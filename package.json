@@ -10,11 +10,13 @@
   "type": "module",
   "description": "al0ridal's eslint config",
   "scripts": {
-		"preinstall": "npx only-allow pnpm",
-		"prepare": "husky install",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s",
+    "preinstall": "npx only-allow pnpm",
+    "prepare": "husky install",
     "lint": "eslint ./**/*.{cjs,mjs,js} --cache --report-unused-disable-directives",
     "format": "eslint ./**/*.{cjs,mjs,js} --cache --fix --report-unused-disable-directives",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "version": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md"
   },
   "repository": {
     "type": "git",
@@ -34,9 +36,18 @@
     "./packages/*"
   ],
   "devDependencies": {
+    "@commitlint/cli": "^17.7.0",
+    "@commitlint/config-angular": "^17.7.0",
     "@nineteen84/eslint-config-base": "workspace:*",
+    "commitizen": "^4.3.0",
+    "cz-conventional-changelog": "3.3.0",
     "eslint": "^8.46.0",
     "husky": "^8.0.3",
     "lint-staged": "^13.2.3"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
   }
 }
