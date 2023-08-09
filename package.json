@@ -39,7 +39,6 @@
     "@commitlint/cli": "^17.7.0",
     "@commitlint/config-angular": "^17.7.0",
     "@nineteen84/eslint-config-base": "workspace:*",
-    "commitizen": "^4.3.0",
     "conventional-changelog-cli": "^3.0.0",
     "cz-conventional-changelog": "3.3.0",
     "eslint": "^8.46.0",
