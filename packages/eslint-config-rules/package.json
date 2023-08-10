@@ -21,6 +21,7 @@
     "./style.cjs"
   ],
   "scripts": {
+    "lint": "eslint ./**/*.{cjs,mjs,js} --cache --report-unused-disable-directives",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
