@@ -34,6 +34,6 @@ jobs:
         run: pnpm -r run lint
 
       - name: Publish all
-        run: pnpm -r publish
+        run: pnpm -r publish --access public
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_SECRET}}
