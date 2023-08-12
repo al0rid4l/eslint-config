@@ -42,7 +42,7 @@
   "dependencies": {
     "@nineteen84/eslint-config-base": "workspace:*",
     "@nineteen84/eslint-config-rules": "workspace:*",
-    "@typescript-eslint/eslint-plugin": "^6.2.1",
-    "@typescript-eslint/parser": "^6.2.1"
+    "@typescript-eslint/eslint-plugin": "^6.3.0",
+    "@typescript-eslint/parser": "^6.3.0"
   }
 }

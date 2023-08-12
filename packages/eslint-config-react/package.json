@@ -43,6 +43,6 @@
     "@nineteen84/eslint-config-browser": "workspace:*",
     "eslint-plugin-react": "^7.33.1",
     "eslint-plugin-react-hooks": "^4.6.0",
-    "globals": "^13.20.0"
+    "globals": "^13.21.0"
   }
 }
