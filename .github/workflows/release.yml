@@ -5,6 +5,9 @@ on:
   push:
     tags:
       - 'v*'
+
+env:
+  CI: true
         
 jobs:
   release:
