@@ -38,14 +38,14 @@
     "@commitlint/cli": "^17.7.1",
     "@commitlint/config-angular": "^17.7.0",
     "@nineteen84/eslint-config-base": "workspace:*",
-    "cz-conventional-changelog": "3.3.0",
+    "cz-git": "^1.7.1",
     "eslint": "^8.47.0",
     "husky": "^8.0.3",
     "lint-staged": "^13.2.3"
   },
   "config": {
     "commitizen": {
-      "path": "cz-conventional-changelog"
+      "path": "node_modules/cz-git"
     }
   }
 }
