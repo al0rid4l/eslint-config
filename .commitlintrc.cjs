@@ -1,3 +1,5 @@
+// .commitlintrc.js
+/** @type {import('cz-git').UserConfig} */
 'use strict';
 
 module.exports = {
@@ -19,5 +21,8 @@ module.exports = {
 				'test',
 			]
 		]
+	},
+	prompt: {
+		scopes: ['deps', 'docs', 'workflow', 'ci']
 	}
 };
