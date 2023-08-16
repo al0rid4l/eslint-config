@@ -16,6 +16,9 @@ module.exports = {
 			project: [tsconfig]
 		},
 		rules: offRules
+	}, {
+		files: ['*.js'],
+		extends: ['plugin:@typescript-eslint/disable-type-checked'],
 	}],
 	plugins: [
 		'@typescript-eslint'
