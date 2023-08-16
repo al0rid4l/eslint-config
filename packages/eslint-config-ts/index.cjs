@@ -34,7 +34,7 @@ module.exports = {
 		'@typescript-eslint/array-type': ['error', {
 			default: 'generic'
 		}],
-		'@typescript-eslint/class-literal-property-style': ['error', 'field'],
+		'@typescript-eslint/class-literal-property-style': ['error', 'fields'],
 		'@typescript-eslint/consistent-indexed-object-style': ['error', 'record'],
 		'@typescript-eslint/consistent-type-assertions': ['error', {
 			assertionStyle: 'as',
