@@ -18,7 +18,7 @@ module.exports = {
 		},
 		rules: offRules
 	}, {
-		files: ['*.js'],
+		files: ['*.js', '*.cjs', '*.mjs'],
 		extends: ['plugin:@typescript-eslint/disable-type-checked'],
 	}],
 	plugins: [

@@ -1,6 +1,6 @@
 {
   "name": "@nineteen84/eslint-config-ts",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "al0ridal's typescript eslint config",
   "engines": {
     "node": ">=18.0.0",
