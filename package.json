@@ -1,6 +1,6 @@
 {
   "name": "@nineteen84/eslint-config-repo",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "engines": {
     "node": ">=18.0.0",
     "pnpm": ">=8.0.0"
