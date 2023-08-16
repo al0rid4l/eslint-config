@@ -1,6 +1,6 @@
 {
   "name": "@nineteen84/eslint-config-react",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "al0ridal's browser eslint config",
   "engines": {
     "node": ">=18.0.0",
