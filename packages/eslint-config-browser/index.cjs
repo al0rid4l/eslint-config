@@ -10,7 +10,9 @@ module.exports = {
 	},
 	extends: ['@nineteen84/ts'],
 	parserOptions: {
-		jsx: true
+		ecmaFeatures: {
+			jsx: true
+		}
 	},
 	rules: {
 		'jsx-quotes': ['error', 'prefer-single']
