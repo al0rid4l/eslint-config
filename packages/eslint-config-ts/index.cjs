@@ -9,6 +9,7 @@ const offRules = Object.keys(style).reduce((o, k) => ({ ...o, [k]: 'off' }), {})
 
 module.exports = {
 	overrides: [{
+		files: ['*.ts'],
 		parser: '@typescript-eslint/parser',
 		parserOptions: {
 			ecmaVersion: 'latest',
