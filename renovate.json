@@ -8,9 +8,5 @@
 	"timezone": "Asia/Hong_Kong",
 	"schedule": ["every weekend"],
 	"updateInternalDeps": true,
-	"labels": ["dependencies"],
-	"packageRules": [{
-		"matchDepTypes": ["devDependencies"],
-		"addLabels": ["devdependencies"]
-	}]
+	"labels": ["dependencies"]
 }
