@@ -39,9 +39,9 @@
     "@commitlint/config-angular": "^17.7.0",
     "@nineteen84/eslint-config-base": "workspace:*",
     "cz-git": "^1.7.1",
-    "eslint": "^8.47.0",
+    "eslint": "^8.49.0",
     "husky": "^8.0.3",
-    "lint-staged": "^14.0.0"
+    "lint-staged": "^14.0.1"
   },
   "config": {
     "commitizen": {

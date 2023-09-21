@@ -41,8 +41,8 @@
   },
   "dependencies": {
     "@nineteen84/eslint-config-browser": "workspace:*",
-    "eslint-plugin-react": "^7.33.1",
+    "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-react-hooks": "^4.6.0",
-    "globals": "^13.21.0"
+    "globals": "^13.22.0"
   }
 }

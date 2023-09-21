@@ -41,6 +41,6 @@
   },
   "dependencies": {
     "@nineteen84/eslint-config-ts": "workspace:*",
-    "globals": "^13.21.0"
+    "globals": "^13.22.0"
   }
 }
