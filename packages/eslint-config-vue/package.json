@@ -42,6 +42,6 @@
   "dependencies": {
     "@nineteen84/eslint-config-browser": "workspace:*",
     "eslint-plugin-vue": "^9.17.0",
-    "globals": "^13.22.0"
+    "globals": "^14.0.0"
   }
 }
